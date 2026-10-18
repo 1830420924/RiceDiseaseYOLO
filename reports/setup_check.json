@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-10-16T13:06:06.254075+00:00",
+  "project_root": "D:\\郭佳丽\\RiceDiseaseYOLO",
+  "dataset_images": 3567,
+  "dataset_boxes": 6818,
+  "dataset_class_count": 8,
+  "all_28_unit_tests_passed": true,
+  "training_dry_run_passed": true,
+  "ultralytics_accepts_training_parameters": true,
+  "official_initial_checkpoint_loads": true,
+  "initial_checkpoint_classes": 80,
+  "gpu_available": true,
+  "training_started": false,
+  "real_evaluation_or_prediction_started": false,
+  "trained_rice_weights_created": false,
+  "pytorch_gpu_interpreter": "D:\\Miniconda3\\envs\\pytorch_gpu\\python.exe",
+  "note": "只加载官方通用初始化权重并验证配置；八类模型训练由用户在PyCharm手动运行。"
+}
