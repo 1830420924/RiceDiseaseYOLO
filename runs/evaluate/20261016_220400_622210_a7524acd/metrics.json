@@ -1,0 +1,103 @@
+{
+  "weights": "D:\\郭佳丽\\RiceDiseaseYOLO\\runs\\train\\baseline_20261016_213341_925468_b36a3972\\weights\\best.pt",
+  "split": "test",
+  "output_dir": "D:\\郭佳丽\\RiceDiseaseYOLO\\runs\\evaluate\\20261016_220400_622210_a7524acd",
+  "overall": {
+    "metrics/precision(B)": 0.6112280330731668,
+    "metrics/recall(B)": 0.5608039822677322,
+    "metrics/mAP50(B)": 0.5482250588341098,
+    "metrics/mAP50-95(B)": 0.3113942706870385,
+    "fitness": 0.3113942706870385
+  },
+  "classes": [
+    {
+      "class_id": 0,
+      "class_name": "Bacterial_Leaf_Blight",
+      "class_name_zh": "白叶枯病",
+      "instances": 57,
+      "precision": 0.6963333598407291,
+      "recall": 0.6035283410640776,
+      "mAP50": 0.5882532094099984,
+      "mAP50-95": 0.37504558252390924,
+      "status": "measured"
+    },
+    {
+      "class_id": 1,
+      "class_name": "Brown_Spot",
+      "class_name_zh": "褐斑病",
+      "instances": 127,
+      "precision": 0.758819329706609,
+      "recall": 0.743228244213239,
+      "mAP50": 0.709199414163971,
+      "mAP50-95": 0.31192238693552526,
+      "status": "measured"
+    },
+    {
+      "class_id": 2,
+      "class_name": "HealthyLeaf",
+      "class_name_zh": "健康叶片",
+      "instances": 83,
+      "precision": 0.641533748187437,
+      "recall": 0.3666195151742437,
+      "mAP50": 0.41665513729226455,
+      "mAP50-95": 0.253451207715172,
+      "status": "measured"
+    },
+    {
+      "class_id": 3,
+      "class_name": "Leaf_Blast",
+      "class_name_zh": "叶瘟病",
+      "instances": 66,
+      "precision": 0.34298083747398495,
+      "recall": 0.36363636363636365,
+      "mAP50": 0.25108969663621006,
+      "mAP50-95": 0.11986764325664781,
+      "status": "measured"
+    },
+    {
+      "class_id": 4,
+      "class_name": "Leaf_Scald",
+      "class_name_zh": "叶焦病",
+      "instances": 52,
+      "precision": 0.5220943801685223,
+      "recall": 0.5961538461538461,
+      "mAP50": 0.5369902763735241,
+      "mAP50-95": 0.2424324330801797,
+      "status": "measured"
+    },
+    {
+      "class_id": 5,
+      "class_name": "Narrow_Brown_Leaf_Spot",
+      "class_name_zh": "窄褐斑病",
+      "instances": 99,
+      "precision": 0.35129311157320997,
+      "recall": 0.24242424242424243,
+      "mAP50": 0.26661497413647844,
+      "mAP50-95": 0.1466537807880357,
+      "status": "measured"
+    },
+    {
+      "class_id": 6,
+      "class_name": "Neck_Blast",
+      "class_name_zh": "穗颈瘟",
+      "instances": 81,
+      "precision": 0.8051182993007319,
+      "recall": 0.9259259259259259,
+      "mAP50": 0.9341731794360348,
+      "mAP50-95": 0.5938674172448307,
+      "status": "measured"
+    },
+    {
+      "class_id": 7,
+      "class_name": "Rice_Hispa",
+      "class_name_zh": "稻铁甲虫危害",
+      "instances": 131,
+      "precision": 0.7716511983341106,
+      "recall": 0.6449153795499192,
+      "mAP50": 0.6828245832243971,
+      "mAP50-95": 0.4479137139520074,
+      "status": "measured"
+    }
+  ],
+  "note": "空指标表示该类别没有可评估的目标，未用 0 或其他类别指标填充。"
+}

@@ -1,0 +1,155 @@
+{
+  "dry_run": false,
+  "initial_weights": "D:\\郭佳丽\\RiceDiseaseYOLO\\weights\\yolo11n.pt",
+  "output_dir": "D:\\郭佳丽\\RiceDiseaseYOLO\\runs\\train\\smoke_test_20261016_211248_483025_087ef7e1",
+  "classes": [
+    "Bacterial_Leaf_Blight",
+    "Brown_Spot",
+    "HealthyLeaf",
+    "Leaf_Blast",
+    "Leaf_Scald",
+    "Narrow_Brown_Leaf_Spot",
+    "Neck_Blast",
+    "Rice_Hispa"
+  ],
+  "selection_split": "val",
+  "test_used_for_selection": false,
+  "training_args": {
+    "epochs": 3,
+    "imgsz": 640,
+    "batch": 4,
+    "workers": 0,
+    "seed": 42,
+    "device": 0,
+    "patience": 30,
+    "optimizer": "auto",
+    "pretrained": true,
+    "amp": true,
+    "cache": false,
+    "data": "D:\\郭佳丽\\RiceDiseaseYOLO\\datasets\\rice\\data.yaml",
+    "task": "detect",
+    "project": "D:\\郭佳丽\\RiceDiseaseYOLO\\runs\\train",
+    "name": "smoke_test_20261016_211248_483025_087ef7e1",
+    "exist_ok": true,
+    "val": true,
+    "split": "val",
+    "save": true,
+    "plots": true
+  },
+  "dataset": {
+    "valid": true,
+    "data_yaml": "D:\\郭佳丽\\RiceDiseaseYOLO\\datasets\\rice\\data.yaml",
+    "root": "D:\\郭佳丽\\RiceDiseaseYOLO\\datasets\\rice",
+    "names": [
+      "Bacterial_Leaf_Blight",
+      "Brown_Spot",
+      "HealthyLeaf",
+      "Leaf_Blast",
+      "Leaf_Scald",
+      "Narrow_Brown_Leaf_Spot",
+      "Neck_Blast",
+      "Rice_Hispa"
+    ],
+    "counts": {
+      "train": {
+        "images": 2767,
+        "labels": 2767,
+        "boxes": 5466,
+        "empty_labels": 17
+      },
+      "valid": {
+        "images": 400,
+        "labels": 400,
+        "boxes": 656,
+        "empty_labels": 5
+      },
+      "test": {
+        "images": 400,
+        "labels": 400,
+        "boxes": 696,
+        "empty_labels": 2
+      }
+    },
+    "class_counts": {
+      "train": [
+        531,
+        1148,
+        662,
+        634,
+        452,
+        572,
+        770,
+        697
+      ],
+      "valid": [
+        58,
+        128,
+        76,
+        63,
+        60,
+        66,
+        100,
+        105
+      ],
+      "test": [
+        57,
+        127,
+        83,
+        66,
+        52,
+        99,
+        81,
+        131
+      ]
+    },
+    "class_image_counts": {
+      "train": [
+        328,
+        352,
+        333,
+        350,
+        357,
+        345,
+        353,
+        332
+      ],
+      "valid": [
+        50,
+        49,
+        50,
+        49,
+        49,
+        48,
+        50,
+        50
+      ],
+      "test": [
+        49,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        49
+      ]
+    },
+    "total_images": 3567,
+    "total_boxes": 6818,
+    "images_verified": false,
+    "warnings": [
+      "保留 24 个空标签作为背景样本；未自动补充标注。",
+      "跨集合源名碰撞 131 组，均存在类别差异，不能据此证明同源或泄漏；保留原数据划分。"
+    ],
+    "cross_split_source_name_collision_groups": 131,
+    "cross_split_source_name_differing_class_groups": 131
+  },
+  "best_weights": "D:\\郭佳丽\\RiceDiseaseYOLO\\runs\\train\\smoke_test_20261016_211248_483025_087ef7e1\\weights\\best.pt",
+  "metrics": {
+    "metrics/precision(B)": 0.3777890977460393,
+    "metrics/recall(B)": 0.2409704926378446,
+    "metrics/mAP50(B)": 0.2796492555663098,
+    "metrics/mAP50-95(B)": 0.13982504434282655,
+    "fitness": 0.13982504434282655
+  }
+}
