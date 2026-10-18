@@ -1,0 +1,9 @@
+# 本机 pytorch_gpu 已具备这些版本，无需重新安装。
+# PyTorch/torchvision 由 GPU 环境提供，避免 pip 将其替换成不匹配版本。
+ultralytics==8.4.79
+PyYAML==6.0.3
+Pillow==11.3.0
+numpy==2.0.2
+opencv-python==4.13.0.92
+matplotlib==3.9.4
+
