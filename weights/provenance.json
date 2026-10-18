@@ -1,0 +1,10 @@
+{
+  "file": "weights/yolo11n.pt",
+  "source": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt",
+  "release_tag": "v8.3.0",
+  "size_bytes": 5613764,
+  "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "official_digest": null,
+  "official_digest_verified": false,
+  "role": "COCO-pretrained initialization only; not a trained rice detector"
+}
